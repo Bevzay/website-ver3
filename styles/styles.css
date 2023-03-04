@@ -1,0 +1,71 @@
+.welcome {
+  background-image: url("../images/welcome-background.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.welcome h1, .welcome p {
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.welcome h1 .centered, .welcome p .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contact {
+  background-image: url("../images/contact-background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact h2, .contact p {
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.contact h2 .centered, .contact p .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.offcanvas-body img {
+  display: inline-block;
+}
+
+.gg-menu-right, .gg-close {
+  --ggs: 1.5;
+}
+
+.gg-chevron-right {
+  --ggs: 0.7;
+}
+
+.portfolio-btn {
+  cursor: pointer;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-contact {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
