@@ -1,39 +1,110 @@
+.navbar {
+  position: relative;
+}
+.navbar .navbar-brand {
+  position: absolute;
+  top: 70%;
+  left: 48.5%;
+  display: block;
+}
+@media screen and (min-width: 320px) {
+  .navbar .navbar-brand {
+    left: 42%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .navbar .navbar-brand {
+    left: 43%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .navbar .navbar-brand {
+    left: 44%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .navbar-brand {
+    left: 46.5%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar .navbar-brand {
+    left: 47.5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navbar .navbar-brand {
+    left: 48.5%;
+  }
+}
+.navbar .navbar-nav {
+  position: absolute;
+  right: 5%;
+  display: block;
+}
+
 .welcome {
-  background-image: url("../images/welcome-background.png");
+  position: static;
+}
+.welcome h1 {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 320px) {
+  .welcome h1 {
+    top: 16%;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .welcome h1 {
+    top: calc(18% + 0.390625vw);
+    font-size: calc(18px + 0.390625vw);
+  }
+}
+@media screen and (min-width: 425px) {
+  .welcome h1 {
+    top: calc(20% + 0.390625vw);
+    font-size: calc(20px + 0.390625vw);
+  }
+}
+@media screen and (min-width: 768px) {
+  .welcome h1 {
+    top: calc(30% + 0.390625vw);
+    font-size: calc(36px + 0.390625vw);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .welcome h1 {
+    top: calc(36% + 0.390625vw);
+    font-size: calc(50px + 0.390625vw);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .welcome h1 {
+    top: calc(50% + 0.390625vw);
+    font-size: calc(70px + 0.390625vw);
+  }
+}
+
+.heading-banner {
+  background-image: url("../images/BG Service Projects & About.png");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.welcome h1, .welcome p {
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-}
-
-.welcome h1 .centered, .welcome p .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .contact {
-  background-image: url("../images/contact-background.png");
+  background-image: url("../images/BG Contact Background.png");
   background-position: center;
   background-size: cover;
 }
-
-.contact h2, .contact p {
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-}
-
-.contact h2 .centered, .contact p .centered {
+.contact .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .offcanvas-body img {
@@ -68,4 +139,14 @@
   overflow: hidden;
   padding-top: 100%;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.carousel .carousel-indicators button {
+  background-color: #71717a;
+}
+.carousel .carousel-indicators button .active {
+  background-color: #71717a;
+}
+
+.footer-line {
+  border-top: 1px solid black;
+}/*# sourceMappingURL=styles.css.map */
